@@ -25,6 +25,7 @@ resource "aws_instance" "blog" {
 
   tags = {
     Name = "Learning Terraform"
+    Type = "Apache Tomcat"
   }
 }
 
